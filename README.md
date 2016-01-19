@@ -19,7 +19,7 @@ Examples:
 ## Installing
 
 1. [Download](https://nylas.com/n1) Nylas N1 email client if you have not yet
-2. [Grab](https://github.com/edipox/n1-ido) the latest release of Ido
+2. [Grab](https://github.com/edipox/n1-ido) just download the master branch
 3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
 
 Profit! :money_with_wings:
