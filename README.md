@@ -1,20 +1,25 @@
-# Taiga
+# Ido
 
-Taiga is a clean, simple, Mailbox-inspired theme for N1 that allows you to focus on what matters most: your emails.
+Ido is a clean, simple, Polymail-inspired theme for N1
 
-![](./preview.jpg)
+![preview](./ido-official.png)
 
-# Taigabox
+## Why 'Ido'?
+Ido in esperanto means descendent/spring and Ido is based on [Taiga](https://github.com/noahbuscher/N1-Taiga)
 
-Taigabox is a version of Taiga more.. mailboxified (?)
+# If you change the code you can get any sidebar color
 
-![](./taigabox.png)
+Examples:
+
+![](./ido1.png)
+![](./ido2.png)
+![](./ido3.png)
 
 
 ## Installing
 
 1. [Download](https://nylas.com/n1) Nylas N1 email client if you have not yet
-2. [Grab](https://github.com/noahbuscher/N1-Taiga/releases) the latest release of Taiga
+2. [Grab](https://github.com/edipox/n1-ido) just download the master branch
 3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
 
 Profit! :money_with_wings:
