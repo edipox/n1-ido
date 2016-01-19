@@ -1,8 +1,8 @@
 {
-  "name": "N1-Taigabox",
-  "theme": "Taigabox",
-  "version": "0.2.4",
-  "description": "A clean, Mailbox-inspired theme for Nylas N1",
+  "name": "N1-Ido",
+  "theme": "Ido",
+  "version": "0.0.1",
+  "description": "A clean, Polymail-inspired theme for Nylas N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
