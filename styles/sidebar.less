@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-[name="Toolbar"] [data-column="0"], [data-column="0"].column-RootSidebar{
+/*[name="Toolbar"] [data-column="0"],*/ [data-column="0"].column-RootSidebar{
   color: @sidebar-fg-color;
   .scrollbar-track{
     border:none;
@@ -36,6 +36,7 @@
 [data-column="0"] .item-container, #account-switcher{
   background: @sidebar-bg!important;
   color: @sidebar-fg-color;
+  padding-bottom: 3px;
 }
 
 #account-switcher, #account-sidebar{
@@ -53,7 +54,6 @@
     .item-container {
       background: @sidebar-bg;
       margin: 0 10px !important;
-
       .disclosure-triangle {
         display: none;
       }
