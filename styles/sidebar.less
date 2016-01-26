@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-[name="Toolbar"] [data-column="0"], [data-column="0"].column-RootSidebar{
+[data-column="0"].column-RootSidebar{
   color: @sidebar-fg-color;
   .scrollbar-track{
     border:none;
@@ -27,15 +27,33 @@
   }
   padding-bottom: 12px;
   background: @sidebar-bg;
+  #account-switcher .item.dropping, #account-sidebar .item.dropping{
+    background: @sidebar-bg-hl;
+    color: @sidebar-fg-color;
+    border-radius: 3px;
+    img{
+      background-color: @sidebar-fg-color;
+    }
+  }
+  .sidebar-activity {
+    background: @sidebar-bg;
+    color: @sidebar-fg-color-hl;
+    box-shadow: none;
+    .item, .item .inner span{
+      color: @sidebar-fg-color-hl;
+      border-color: @sidebar-bg;
+    }
+  }
 }
 
-#account-switcher .primary-item .name{//, #account-switcher .item, #account-sidebar .item {
+#account-switcher .primary-item .name{
   color: @sidebar-fg-color;
 }
 
 [data-column="0"] .item-container, #account-switcher{
   background: @sidebar-bg!important;
   color: @sidebar-fg-color;
+  padding-bottom: 3px;
 }
 
 #account-switcher, #account-sidebar{
@@ -53,7 +71,6 @@
     .item-container {
       background: @sidebar-bg;
       margin: 0 10px !important;
-
       .disclosure-triangle {
         display: none;
       }
