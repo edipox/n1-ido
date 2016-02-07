@@ -54,6 +54,21 @@
   background: @sidebar-bg;
 }
 
+.sheet-toolbar {
+  margin-bottom: 0;
+}
+
+.sheet {
+  margin-top: 0;
+}
+
+.layout-mode-split {
+  .sheet-toolbar-container [data-column="1"],
+  .column-ThreadList {
+    border-right: 2px solid @border-color;
+  }
+}
+
 [data-column="0"] .item-container, #account-switcher{
   background: @sidebar-bg!important;
   color: @sidebar-fg-color;
