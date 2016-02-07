@@ -81,7 +81,6 @@
   section {
     .item-container {
       background: @sidebar-bg;
-      margin: 0 10px !important;
       .disclosure-triangle {
         display: none;
       }
@@ -98,8 +97,7 @@
         }
 
         &.selected {
-          background: @taiga-accent !important;
-          border-radius: @base-border-radius;
+          background: @sidebar-active-item-bg !important;
           color: @white !important;
 
           .item-count-box {
@@ -117,4 +115,9 @@
       }
     }
   }
+}
+
+.nylas-outline-view .heading {
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
