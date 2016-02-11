@@ -1,4 +1,5 @@
 @import "variables";
+@import "ui-variables";
 
 .flexbox-handle-horizontal div{
   border:none;
@@ -8,16 +9,34 @@
   .scrollbar-track {
     border: 0;
   }
-  .list-container {
-    .list-item {
-      &.focused:hover .list-column-HoverActions .inner {
-        color: @taiga-dark !important;
-        background-image: linear-gradient(90deg, fadeout(@taiga-lighter, 100%) 0%, darken(@taiga-lighter, 10%) 100%);
-
-        .action {
-          -webkit-filter: none;
+  &.handler-split .list-item,
+  .list-item {
+    &:hover {
+      .list-column-HoverActions {
+        .inner {
+          background-image: linear-gradient(90deg, fadeout(@white, 100%) 0%, @white 50%, @white 100%);
         }
       }
+    }
+    &.focused,
+    &.selected {
+      .thread-icon {
+        -webkit-filter: none;
+      }
+      &:hover {
+        .list-column-HoverActions {
+          .inner {
+            background-image: linear-gradient(90deg, fadeout(@thread-focused-bg, 100%) 0%, @thread-focused-bg 50%, @thread-focused-bg 100%);
+            .action {
+              -webkit-filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .list-container {
+    .list-item {
       .list-column {
         border-bottom: 0 !important;
       }
@@ -31,24 +50,41 @@
             border: 0 !important;
             background-color: @white !important;
             color: @taiga-dark !important;
-            &.focused {
-              color: @taiga-dark !important;
-              background-color: darken(@taiga-lighter, 5%) !important;
-              // border-radius: 4px;
-              // /* hack to make the left border radius visible  */
-              // margin-left: 1%;
-              // width: 99%!important;
-            }
+            &.focused,
             &.selected {
               color: @taiga-dark !important;
-              background-color: darken(@taiga-lighter, 5%) !important;
-            }
-            &.keyboard-cursor {
-              .list-column-Item {
-                border-left: 4px solid darken(@taiga-lighter, 50%) !important;
-              }
+              background-color: @thread-focused-bg !important;
             }
           }
+        }
+      }
+    }
+  }
+  &.thread-list-narrow {
+    .thread-icon {
+      margin-right: 0;
+      margin-left: 4px;
+    }
+    .mail-important-icon {
+      margin-left: 5px;
+    }
+    .participants,
+    .timestamp {
+      font-size: 12px;
+    }
+    .subject {
+      color: #000000;
+    }
+  }
+}
+
+.list-tabular {
+  .list-tabular-item {
+    &.keyboard-cursor {
+      .list-column {
+        padding: 6px 20px 6px 0px;
+        &:first-child {
+          border-left: 4px solid darken(@thread-focused-bg, 50%) !important;
         }
       }
     }
