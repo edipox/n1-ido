@@ -1,0 +1,31 @@
+@import "variables";
+@import "ui-variables";
+
+.sheet-toolbar {
+  order: 1!important;
+  border: none;
+  height: @toolbar-height;
+  min-height: 0;
+  max-height: none;
+  margin-bottom: 0;
+  .item-spacer{
+    height: @toolbar-height;
+  }
+  [data-column="0"] .item-container {
+    padding: 0;
+  }
+  .selection-bar {
+    .absolute {
+      left: 0;
+      right: 0;
+      height: @toolbar-height;
+      border-left: none;
+      border-right: none;
+      .inner {
+        .centered {
+          padding-top: 25px;
+        }
+      }
+    }
+  }
+}
