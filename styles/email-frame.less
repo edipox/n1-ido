@@ -1,5 +1,6 @@
 @import "variables";
 @import "ui-variables";
+@import "controls";
 
 .ignore-in-parent-frame {
   body {
@@ -9,22 +10,54 @@
     color: @taiga-dark;
   }
 }
-.composer-action-bar-wrap{
-  .btn-send{
-    margin-top: 6px;
-  }
-  .btn.btn-toolbar:not(.btn-send){
-    border-radius: 999px;
-    height: 42px;
-    padding: 12px;
-    &.narrow{
-      padding: 4px;
+.composer-inner-wrap, *{
+  .composer-action-bar-wrap{
+    .composer-action-bar-content{
+      padding: 5px;
+    }
+    .button-dropdown.bordered{
+      .primary-item{
+        height: @send-button-size;
+        line-height: @send-button-line-height;
+        border-top-left-radius: @btn-border-radius!important;
+        border-bottom-left-radius: @btn-border-radius!important;
+        &:extend(.btn.btn-emphasis);
+        img{
+          background-color: @white;
+        }
+      }
+      .secondary-picker{
+        height: @send-button-size;
+        line-height: @send-button-line-height;
+        border-top-right-radius: @btn-border-radius!important;
+        border-bottom-right-radius: @btn-border-radius!important;
+        &:extend(.btn.btn-emphasis);
+        img{
+          background-color: @white;
+        }
+      }
+    }
+    .btn-send{
+      margin-top: 6px;
+    }
+    .btn.btn-toolbar:not(.btn-send){
+      border-radius: 999px;
+      height: 42px;
+      padding: 12px;
+      &.narrow{
+        padding: 4px;
+      }
     }
   }
 }
+
 .window-type-composer{
+
   [data-column="0"], .composer-full-window .composer-inner-wrap .composer-action-bar-wrap{
     background: @white;
+    .composer-action-bar-content{
+      padding-bottom: 0;
+    }
     .btn.btn-toolbar.narrow{
       border-radius: 999px;
     }
@@ -37,10 +70,13 @@
       }
     }
 
-
-
     .btn.btn-toolbar.btn-emphasis.btn-text.btn-send{
+      height: @send-button-size;
       border-radius: 2px;
+      margin-bottom: 8px;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
   }
   background: @white;
@@ -50,4 +86,7 @@
   .sheet-toolbar .item-container .window-title{
     color: @white;
   }
+}
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap{
+  background: @white;
 }
