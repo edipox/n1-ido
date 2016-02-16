@@ -19,8 +19,6 @@
       .primary-item{
         height: @send-button-size;
         line-height: @send-button-line-height;
-        border-top-left-radius: @btn-border-radius!important;
-        border-bottom-left-radius: @btn-border-radius!important;
         &:extend(.btn.btn-emphasis);
         img{
           background-color: @white;
@@ -29,8 +27,6 @@
       .secondary-picker{
         height: @send-button-size;
         line-height: @send-button-line-height;
-        border-top-right-radius: @btn-border-radius!important;
-        border-bottom-right-radius: @btn-border-radius!important;
         &:extend(.btn.btn-emphasis);
         img{
           background-color: @white;
@@ -52,7 +48,6 @@
 }
 
 .window-type-composer{
-
   [data-column="0"], .composer-full-window .composer-inner-wrap .composer-action-bar-wrap{
     background: @white;
     .composer-action-bar-content{
@@ -69,10 +64,6 @@
         padding: 4px;
       }
     }
-// <<<<<<< HEAD
-// =======
-
-// >>>>>>> develop
     .btn.btn-toolbar.btn-emphasis.btn-text.btn-send{
       height: @send-button-size;
       border-radius: 2px;
@@ -90,14 +81,11 @@
     color: @white;
   }
 }
-// <<<<<<< HEAD
-//
-// .message-list {
-//   .scrollbar-track {
-//     border: 0;
-//   }
-// =======
+.message-list {
+  .scrollbar-track {
+    border: 0;
+  }
+}
 #message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap{
   background: @white;
-// >>>>>>> develop
 }
