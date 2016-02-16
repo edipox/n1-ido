@@ -8,6 +8,9 @@
   min-height: 0;
   max-height: none;
   margin-bottom: 0;
+  .item-spacer{
+    height: @toolbar-height;
+  }
   [data-column="0"] .item-container {
     padding: 0;
   }
@@ -15,7 +18,7 @@
     .absolute {
       left: 0;
       right: 0;
-      height: 72px;
+      height: @toolbar-height;
       border-left: none;
       border-right: none;
       .inner {
