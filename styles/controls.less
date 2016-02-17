@@ -22,10 +22,15 @@
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 17px;
+  padding-left: 0;
   .menu .header-container input.empty{
-    text-align: center;
+    padding-left: 40%;
     background-color: @search-input-bg;
     border: none;
+    transition: padding 0.3s;
+    &:focus{
+      padding-left: 30px;
+    }
   }
 }
 
@@ -52,10 +57,7 @@
 }
 
 .sheet-toolbar{
-// <<<<<<< HEAD
   border: none;
-// =======
-// >>>>>>> 589feb7a35333e48a6bdabd26d8c440591346543
   .btn-toolbar{
     border-radius: @btn-border-radius!important;
     padding: 4px;
