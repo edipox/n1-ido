@@ -8,8 +8,18 @@
 @white: #ffffff;
 @search-input-bg: #eee;
 
-@sidebar-bg:  #3a5559; //#1E1A4A;//#4D4175;//#75414F;//#3a5559;
-// @sidebar-bg:  #232E44; //Polymail sidebar background color
+/**
+ * Sidebar Colors
+ */
+
+@ido-sidebar--default: #3a5559;
+@ido-sidebar--midnight: #1e1a4a;
+@ido-sidebar--dusk: #4d4175;
+@ido-sidebar--firebrick: #4d4175;
+@ido-sidebar--forest: #4d4175;
+@ido-sidebar--polymail: #232e44;
+
+@sidebar-bg: @ido-sidebar--default;
 @sidebar-active-item-bg: desaturate(lighten(@sidebar-bg, 11%), 10%);
 @sidebar-fg-color: #d5d5d5;
 @sidebar-heading-fg: #fff;
