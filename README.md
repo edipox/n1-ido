@@ -1,3 +1,5 @@
+```Now working with Nylas N1 0.4.9   ```   :tada:
+
 # Ido
 
 Ido is a clean, simple, Polymail-inspired theme for N1.
