@@ -10,6 +10,14 @@
     color: @taiga-dark;
   }
 }
+.button-dropdown.bordered{
+  .primary-item{
+    padding-top: @bordered-inner-padding-top;
+  }
+  .secondary-picker{
+    padding-top: @bordered-inner-padding-top;
+  }
+}
 .composer-inner-wrap, *{
   .composer-action-bar-wrap{
     .composer-action-bar-content{
@@ -19,6 +27,7 @@
       .primary-item{
         height: @send-button-size;
         line-height: @send-button-line-height;
+        padding-top: @bordered-inner-padding-top;
         &:extend(.btn.btn-emphasis);
         img{
           background-color: @white;
@@ -27,6 +36,7 @@
       .secondary-picker{
         height: @send-button-size;
         line-height: @send-button-line-height;
+        padding-top: @bordered-inner-padding-top;
         &:extend(.btn.btn-emphasis);
         img{
           background-color: @white;
@@ -37,11 +47,12 @@
       margin-top: 6px;
     }
     .btn.btn-toolbar:not(.btn-send){
-      border-radius: 999px;
-      height: 42px;
-      padding: 12px;
+      border-radius: @btn-border-radius;
+      height: @composer-btn-height;
+      padding: @composer-btn-padding;
+      margin: @composer-btn-margin;
       &.narrow{
-        padding: 4px;
+        padding: @narrow-btn-padding;
       }
     }
   }
@@ -54,21 +65,23 @@
       padding-bottom: 0;
     }
     .btn.btn-toolbar.narrow{
-      border-radius: 999px;
+      border-radius: @btn-border-radius;
     }
     .composer-inner-wrap .composer-action-bar-wrap .btn{
-      border-radius: 999px;
-      height: 42px;
-      padding: 12px;
+      border-radius: @btn-border-radius;
+      height: @composer-btn-height;
+      padding: @composer-btn-padding;
+      margin: @composer-btn-margin;
       &.narrow{
-        padding: 4px;
+        padding: @narrow-btn-padding;
       }
     }
     .btn.btn-toolbar.btn-emphasis.btn-text.btn-send{
       height: @send-button-size;
       border-radius: 2px;
       margin-bottom: 8px;
-      margin-top: 0px;
+      margin-top: 6px;
+      margin-left: 6px;
       padding-top: 0px;
       padding-bottom: 0px;
     }
@@ -86,6 +99,14 @@
     border: 0;
   }
 }
-#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap{
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap, .window-type-composer [data-column="0"] .composer-inner-wrap .composer-action-bar-wrap{
   background: @white;
+  .btn.btn-toolbar{
+    &.btn-trash{
+      padding: @composer-btn-padding;
+    }
+    &.btn-send-later{
+      padding: @send-later-btn-padding;
+    }
+  }
 }
