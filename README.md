@@ -10,7 +10,7 @@ Ido is a clean, simple, Polymail-inspired theme for N1.
 Ido in esperanto means descendent/spring and Ido is based on [Taiga](https://github.com/noahbuscher/N1-Taiga).
 
 # Theming
-The sidebar color can be changed by updating the color value in [this file](https://github.com/edipox/n1-ido/blob/master/styles/variables.less#L11).
+The sidebar color can be changed by updating the color value in [this file](https://github.com/edipox/n1-ido/blob/master/styles/variables.less#L23).
 
 Examples:
 
