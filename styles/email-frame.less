@@ -18,6 +18,7 @@
     padding-top: @bordered-inner-padding-top;
   }
 }
+// .composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask
 .composer-inner-wrap, *{
   .composer-action-bar-wrap{
     .composer-action-bar-content{
@@ -51,6 +52,10 @@
       height: @composer-btn-height;
       padding: @composer-btn-padding;
       margin: @composer-btn-margin;
+      border-color: @icon-bg-color;
+      img.content-mask{
+        background-color: @icon-bg-color!important;
+      }
       &.narrow{
         padding: @narrow-btn-padding;
       }

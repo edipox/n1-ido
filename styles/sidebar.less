@@ -23,7 +23,7 @@
   }
   padding-bottom: 12px;
   background: @sidebar-bg;
-  #account-switcher .item.dropping, #account-sidebar .item.dropping{
+  #account-switcher .item.dropping, .account-sidebar .item.dropping{
     background: @sidebar-bg-hl;
     color: @sidebar-fg-color;
     border-radius: 3px;
@@ -68,19 +68,22 @@
   padding-bottom: 3px;
 }
 
-#account-switcher, #account-sidebar{
+#account-switcher, .account-sidebar{
   background: @sidebar-bg;
 }
 
 
 
-#account-switcher .heading, #account-sidebar .heading{
+#account-switcher .heading, .account-sidebar .heading{
   color: @sidebar-heading-fg;
 }
 
 .account-sidebar-sections {
   background: @sidebar-bg;
   section {
+    img.content-mask{
+      background-color: @sidebar-fg-color!important;
+    }
     .item-container {
       background: @sidebar-bg;
       .disclosure-triangle {
@@ -112,10 +115,9 @@
           .name{
             color: @white !important;
             background: @sidebar-active-item-bg!important;
-            padding: 5px!important;
+            padding: 4px!important;
             padding-left: 110%!important;
-            padding-right: 110%!important;
-            margin-left: -105%!important;
+            margin-left: -105.7% !important;
           }
 
 
