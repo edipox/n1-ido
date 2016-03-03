@@ -46,11 +46,6 @@
   color: @sidebar-fg-color;
 }
 
-.account-sidebar {
-  background: @sidebar-bg;
-}
-
-
 .sheet {
   margin-top: 0;
 }
@@ -58,34 +53,26 @@
 .layout-mode-split {
   .sheet-toolbar-container [data-column="1"],
   .column-ThreadList {
-    border-right: 2px solid @border-color;
+    border-right: 1px solid @border-color;
   }
 }
 
 [data-column="0"] .item-container, #account-switcher{
-  background: @sidebar-bg!important;
+  background: @sidebar-bg !important;
   color: @sidebar-fg-color;
   padding-bottom: 3px;
 }
-
-#account-switcher, .account-sidebar{
-  background: @sidebar-bg;
-}
-
-
 
 #account-switcher .heading, .account-sidebar .heading{
   color: @sidebar-heading-fg;
 }
 
 .account-sidebar-sections {
-  background: @sidebar-bg;
   section {
     img.content-mask{
       background-color: @sidebar-fg-color!important;
     }
     .item-container {
-      background: @sidebar-bg;
       .disclosure-triangle {
         margin-left: 6px;
         margin-right: -16px;
@@ -120,7 +107,6 @@
             margin-left: -105.7% !important;
           }
 
-
           .item-count-box {
             background: transparent !important;
             color: @white !important;
@@ -141,4 +127,8 @@
 .nylas-outline-view .heading {
   padding-bottom: 10px;
   font-size: 13px;
+}
+
+.disclosure-triangle div {
+  border-left: 7px solid rgba(255, 255, 255, 0.25);
 }
