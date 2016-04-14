@@ -24,8 +24,11 @@
   }
   padding-bottom: 12px;
   background: @sidebar-bg;
-  #account-switcher .item.dropping, .account-sidebar .item.dropping{
-    background: @sidebar-bg-hl;
+  #account-switcher .item-container.dropping, .account-sidebar .item-container.dropping{
+    background: @sidebar-active-item-bg!important;
+    &.active{
+      background: @sidebar-bg-hl;
+    }
     color: @sidebar-fg-color;
     border-radius: 3px;
     img{
@@ -50,7 +53,7 @@
 .account-sidebar{
   .account-switcher{
    img{
-     background-color: @sidebar-active-hi-item-bg;
+     background-color: @sidebar-bg-hl;
      border-radius: @btn-border-radius;
    } 
   }
