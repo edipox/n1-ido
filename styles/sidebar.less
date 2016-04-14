@@ -1,4 +1,5 @@
 @import "variables";
+@import "ui-variables";
 
 #account-switcher{
   border:none;
@@ -44,6 +45,15 @@
 
 #account-switcher .primary-item .name{
   color: @sidebar-fg-color;
+}
+
+.account-sidebar{
+  .account-switcher{
+   img{
+     background-color: @sidebar-active-hi-item-bg;
+     border-radius: @btn-border-radius;
+   } 
+  }
 }
 
 .sheet {
