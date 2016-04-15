@@ -47,7 +47,7 @@ Ee.. What?
 2. [Grab](https://github.com/edipox/n1-ido) just download the master branch
 3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
 
-Profit! :money_with_wings:
+[Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
 
 ## TODO
 * Color picker plugin :pray: 
