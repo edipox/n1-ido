@@ -44,7 +44,7 @@ Ee.. What?
 ## Installing
 
 1. [Download](https://nylas.com/n1) Nylas N1 email client if you have not yet
-2. [Grab](https://github.com/edipox/n1-ido) just download the master branch
+2. [Just download the master branch](https://github.com/edipox/n1-ido)
 3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
 
 [Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
