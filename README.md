@@ -12,9 +12,33 @@ Ido in esperanto means descendent/spring and Ido is based on [Taiga](https://git
 # Theming
 The sidebar color can be changed by updating the color value in [this file](https://github.com/edipox/n1-ido/blob/master/styles/variables.less#L23).
 
-Examples:
+## Firebrick
+It seems to be a really popular choice
+![](./firebrick.png)
+
+## Freedom
+The default theme
+![](./ido.png)
+
+## Skyfall
+One of my fav :)
+![](./skyfall.png)
+
+## Inbox
+Ee.. What? 
+![](./inbox.png)
+
+## Polymail
+:flushed:
+![](./polymail.png)
+
+
+## Examples
+
 
 ![](./ido-1.png)
+
+
 ![](./ido-2.png)
 
 ## Installing
