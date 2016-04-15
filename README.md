@@ -4,7 +4,7 @@
 
 Ido is a clean, simple, Polymail-inspired theme for N1.
 
-![preview](./ido.png)
+![preview](./freedom.png)
 
 ## Why 'Ido'?
 Ido in esperanto means descendent/spring and Ido is based on [Taiga](https://github.com/noahbuscher/N1-Taiga).
@@ -18,7 +18,7 @@ It seems to be a really popular choice
 
 ## Freedom
 The default theme
-![](./ido.png)
+![](./freedom.png)
 
 ## Skyfall
 One of my fav :)
