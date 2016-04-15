@@ -1,10 +1,10 @@
-```Now working with Nylas N1 0.4.9   ```   :tada:
+```Now working with Nylas N1 0.4.25   ```   :tada:
 
 # Ido
 
 Ido is a clean, simple, Polymail-inspired theme for N1.
 
-![preview](./ido-official.png)
+![preview](./ido.png)
 
 ## Why 'Ido'?
 Ido in esperanto means descendent/spring and Ido is based on [Taiga](https://github.com/noahbuscher/N1-Taiga).
@@ -14,10 +14,8 @@ The sidebar color can be changed by updating the color value in [this file](http
 
 Examples:
 
-![](./ido1.png)
-![](./ido2.png)
-![](./ido3.png)
-
+![](./ido-1.png)
+![](./ido-2.png)
 
 ## Installing
 
