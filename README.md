@@ -36,10 +36,7 @@ Ee.. What?
 ## Examples
 
 
-![](./ido-1.png)
-
-
-![](./ido-2.png)
+![](./examples.png)
 
 ## Installing
 
