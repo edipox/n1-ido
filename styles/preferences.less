@@ -13,15 +13,24 @@
   }
 }
 
-.preferences-wrap .preferences-sidebar {
-  .item {
-    border-bottom: none;
-    color: @white;
-    &.active {
-      background: @sidebar-active-item-bg !important;
-      .name {
-        color: @white !important;
+.preferences-wrap {
+  .preferences-sidebar, .container-preference-tabs .preferences-tabs {
+    .item {
+      border-bottom: none;
+      color: @white;
+      &.active {
+        background: @sidebar-active-item-bg !important;
+        .name {
+          color: @white !important;
+        }
       }
     }
   }
+}
+
+.nylas-editable-list .items-wrapper .selected.editing{
+  background: @sidebar-bg-hl;
+}
+.nylas-editable-list .items-wrapper .selected, .nylas-editable-list:focus .items-wrapper .selected {
+  background: @sidebar-active-item-bg;
 }
