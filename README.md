@@ -48,3 +48,6 @@ Ee.. What?
 3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
 
 Profit! :money_with_wings:
+
+## TODO
+* Color picker plugin :pray: 
