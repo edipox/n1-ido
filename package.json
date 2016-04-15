@@ -2,8 +2,8 @@
   "displayName": "Ido",
   "name": "N1-Ido",
   "theme": "Ido",
-  "version": "0.0.6",
-  "description": "A clean, Polymail-inspired theme for Nylas N1",
+  "version": "0.0.8",
+  "description": "A Polymail-inspired theme for Nylas N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
