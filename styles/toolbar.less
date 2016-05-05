@@ -7,6 +7,13 @@
   min-height: 0;
   max-height: none;
   margin-bottom: 0;
+  .toolbar-activity{
+    margin:auto;
+    img.activity-toolbar-icon.content-mask{
+      background: @white;
+      margin-top: -10px;
+    }
+  }
   .item-spacer{
     height: @toolbar-height;
   }
@@ -29,21 +36,6 @@
           padding-top: 16px;
         }
       }
-    }
-  }
-}
-
-.window-type-composer{
-  .sheet-toolbar-container.mode-popout{
-    .toolbar-window-controls{
-      margin: 15px;
-      margin-bottom: 0;
-    }
-    .item-spacer{
-      height: 46px;
-    }
-    .window-title{
-      margin-top: 6px;
     }
   }
 }

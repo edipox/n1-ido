@@ -55,7 +55,7 @@
    img{
      background-color: @sidebar-bg-hl;
      border-radius: @btn-border-radius;
-   } 
+   }
   }
 }
 
@@ -79,7 +79,7 @@
 #account-switcher .heading, .account-sidebar .heading{
   color: @sidebar-heading-fg;
 }
-
+// nylas-outline-view
 .account-sidebar-sections {
   section {
     img.content-mask{
@@ -112,12 +112,13 @@
         &.selected {
           background: @sidebar-active-item-bg !important;
           color: @white !important;
+          padding-left: 110%!important;
+          margin-left: -105.7% !important;
           .name{
             color: @white !important;
             background: @sidebar-active-item-bg!important;
-            padding: 4px!important;
-            padding-left: 110%!important;
-            margin-left: -105.7% !important;
+            padding: 4px;
+            padding-left: 8.5px;
           }
 
           .item-count-box {
