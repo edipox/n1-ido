@@ -18,7 +18,7 @@
     padding-top: @bordered-inner-padding-top;
   }
 }
-// .composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask
+
 .composer-inner-wrap, *{
   .composer-action-bar-wrap{
     .composer-action-bar-content{
@@ -63,7 +63,20 @@
   }
 }
 
-.window-type-composer{
+.window-type-composer, .layout-mode-popout{
+  .sheet-toolbar-container.mode-popout{
+    .toolbar-window-controls{
+      margin: 12px;
+      margin-bottom: 0;
+    }
+    .item-spacer{
+      height: 40px;
+    }
+    .window-title{
+      // margin-top: 6px;
+      line-height: 38px;
+    }
+  }
   [data-column="0"], .composer-full-window .composer-inner-wrap .composer-action-bar-wrap{
     background: @white;
     .composer-action-bar-content{
@@ -104,11 +117,29 @@
     border: 0;
   }
 }
-#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap, .window-type-composer [data-column="0"] .composer-inner-wrap .composer-action-bar-wrap{
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap,
+.window-type-composer [data-column="0"] .composer-inner-wrap .composer-action-bar-wrap,
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap .composer-action-bar-wrap,
+.layout-mode-popout  .composer-full-window .composer-inner-wrap .composer-action-bar-plugins{
   background: @white;
   .btn.btn-toolbar{
+    &:nth-child(3){
+      .content-mask{
+        &:first-child{
+          margin-left: -5px;
+        }
+        &:last-child{
+          margin-left: -2px;
+          margin-right: -4px;
+        }
+      }
+    }
     &.btn-trash{
       padding: @composer-btn-padding;
+    }
+    &.btn-attach{
+      padding-left: 12px;
+      padding-right: 12px;
     }
     &.btn-send-later{
       padding: @send-later-btn-padding;
