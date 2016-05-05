@@ -1,4 +1,4 @@
-```Now working with Nylas N1 0.4.25   ```   :tada:
+```Now working with Nylas N1 0.4.33   ```   :tada:
 
 # Ido
 
@@ -25,7 +25,7 @@ One of my fav :)
 ![](./skyfall.png)
 
 ## Inbox
-Ee.. What? 
+Ee.. What?
 ![](./inbox.png)
 
 ## Polymail
@@ -47,4 +47,4 @@ Ee.. What?
 [Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
 
 ## TODO
-* Color picker plugin :pray: 
+* Color picker plugin :pray:
