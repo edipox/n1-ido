@@ -1,4 +1,4 @@
-```Now working with Nylas N1 0.4.33   ```   :tada:
+```Now working with Nylas N1 0.4.40   ```   :tada:
 
 # Ido
 
@@ -27,6 +27,7 @@ One of my fav :)
 ## Inbox
 Ee.. What?
 ![](./inbox.png)
+But if you are looking for an Inbox inspired theme you should definitely try [agapanthus](https://github.com/taniadaniela/n1-agapanthus)
 
 ## Polymail
 :flushed:
