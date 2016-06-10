@@ -29,7 +29,7 @@
     border: none;
     transition: padding 0.3s;
     &:focus{
-      padding-left: 30px;
+      padding-left: 30px!important;
     }
   }
 }
@@ -39,6 +39,7 @@
     padding-left: 30%;
   }
 }
+
 
 .list-rows{
     .list-item{
@@ -83,6 +84,27 @@
   }
   .btn img.content-mask{
     background-color: @icon-bg-color;
+  }
+}
+
+/*  Single Panel Mode  */
+.layout-mode-list{
+  .search-bar .menu .header-container input.empty{
+      padding-left: 45%;
+  }
+  .sheet-toolbar{
+    .btn-toolbar.btn{
+      background: @sidebar-bg !important;
+      border-color: @white !important;
+      img.content-mask{
+        background-color: @white;
+      }
+    }
+    .message-toolbar-arrow{
+      img.content-mask{
+        margin-top: 26px;
+      }
+    }
   }
 }
 
