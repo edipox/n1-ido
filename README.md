@@ -1,4 +1,4 @@
-```Now working with Nylas N1 0.4.33   ```   :tada:
+```Now working with Nylas N1 0.4.40   ```   :tada:
 
 # Ido
 

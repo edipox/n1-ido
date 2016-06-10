@@ -2,12 +2,12 @@
   "displayName": "Ido",
   "name": "N1-Ido",
   "theme": "Ido",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A Polymail-inspired theme for Nylas N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
   },
-  "styleSheets": ["controls", "email-frame", "header", "toolbar", "sidebar", "threads", "notifications", "preferences", "footer"],
+  "styleSheets": ["controls", "email-frame", "header", "toolbar", "sidebar", "threads", "notifications", "preferences", "footer",  "message-list-sidebar"],
   "private": true
 }
