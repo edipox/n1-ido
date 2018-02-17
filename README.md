@@ -1,8 +1,8 @@
-```Now working with Nylas N1 1.0.45   ```   :tada:
+```Now working with Mailspring 1.1.4   ```   :tada:
 
 # Ido
 
-Ido is a clean, simple, Polymail-inspired theme for N1.
+Ido is a clean, simple, Polymail-inspired theme for Mailspring.
 
 ![preview](./freedom.png)
 
@@ -41,9 +41,9 @@ But if you are looking for an Inbox inspired theme you should definitely try [ag
 
 ## Installing
 
-1. [Download](https://nylas.com/n1) Nylas N1 email client if you have not yet
+1. [Download](https://getmailspring.com/) Mailspring - (desktop email client) if you have not yet
 2. [Just download the master branch](https://github.com/edipox/n1-ido)
-3. Open `N1>Preferences>General>Select theme` and select `Install new theme...` from the dropdown
+3. Open `Mailspring` -> `Install new theme...`
 
 [Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
 
