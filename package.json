@@ -1,13 +1,12 @@
 {
   "displayName": "Ido",
-  "name": "N1-Ido",
+  "name": "Ido",
   "theme": "Ido",
-  "version": "0.2.3",
-  "description": "A Polymail-inspired theme for Nylas N1",
+  "version": "0.2.4",
+  "description": "A Polymail-inspired theme for Mailspring",
   "license": "GPL-3.0",
   "engines": {
-    "nylas": "*"
+    "mailspring": "*"
   },
-  "styleSheets": ["controls", "email-frame", "header", "toolbar", "sidebar", "threads", "notifications", "preferences", "footer",  "message-list-sidebar"],
   "private": true
 }
