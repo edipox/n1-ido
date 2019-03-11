@@ -42,8 +42,13 @@ But if you are looking for an Inbox inspired theme you should definitely try [ag
 ## Installing
 
 1. [Download](https://getmailspring.com/) Mailspring - (desktop email client) if you have not yet
-2. [Just download the master branch](https://github.com/edipox/n1-ido)
-3. Open `Mailspring` -> `Install new theme...`
+2. [Just download the master branch](https://github.com/edipox/n1-ido):
+    * Click `Clone or Download` -> `Download ZIP`
+3. Decompress the zip file.
+4. Open `Mailspring` -> `Install new theme...`
+5. Select the decompressed folder, usually named `n1-ido-master`.
+
+
 
 [Buy me a coffee :coffee::heart:](http://ko-fi.com/A553N9)
 
