@@ -16,15 +16,15 @@
   margin-left: @toolbar-btns-margin-left;
 }
 
-.search-bar, .search-container{
+.search-bar, .search-container, .thread-search-bar{
   width: @search-bar-width;
   margin-top: 17px;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 17px;
-  padding-left: 0;
+  padding-left: 5px;
   .menu .header-container input.empty, .header-container input.empty{
-    padding-left: 40%;
+    padding-left: 5px;
     background-color: @search-input-bg;
     border: none;
     transition: padding 0.3s;
@@ -35,8 +35,8 @@
 }
 
 @media(max-width: 966px){
-  .search-bar .menu .header-container input.empty{
-    padding-left: 30%;
+  .search-bar .menu .header-container input.empty, .thread-search-bar{
+    padding-left: 3px;
   }
 }
 
